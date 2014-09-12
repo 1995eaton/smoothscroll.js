@@ -1,0 +1,30 @@
+html, body {
+  font-family: Helvetica, 'Helvetica Neue', Neue, sans-serif, Arial;
+}
+
+pre, div {
+  -webkit-transform: translateZ(0);
+}
+
+#scroll-container {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: #1b1d1e;
+  color: #c1c1c1;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+button {
+  display: block;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 15pt;
+  width: 100%;
+}
+
+#scroll-container button:last-child {
+  margin-bottom: 0px;
+}
